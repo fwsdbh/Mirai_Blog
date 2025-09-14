@@ -18,12 +18,12 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 
 // 移除i18n导入以避免循环依赖
 
-// 定义站点语言
-const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+// 定义站点默认语言
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "Mirai",
+	subtitle: "Blog",
 
 	lang: SITE_LANG,
 
@@ -85,18 +85,17 @@ export const siteConfig: SiteConfig = {
 		// 请自行搭建API
 
 		homeText: {
-			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mirai!", // 主页横幅主标题
+			enable: false, // 在主页显示自定义文本
+			title: "Mirai!", // 主页横幅主标题
 
 			subtitle: [
-				"A Showcase Demo Site",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				// "A Showcase Demo Site",
+				// "Carousel Highlight: Innovation",
+				// "Carousel Focus: User Experience",
+				// "Carousel Spot: Core Advantages",
 			],
 			typewriter: {
-				enable: true, // 启用副标题打字机效果
-
+				enable: false, // 启用副标题打字机效果
 				speed: 100, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
 				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
@@ -305,7 +304,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 };
 
 export const footerConfig: FooterConfig = {
