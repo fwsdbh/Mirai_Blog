@@ -33,11 +33,11 @@ importers:
         specifier: ^0.41.3
         version: 0.41.3
       '@fontsource-variable/jetbrains-mono':
-        specifier: ^5.2.6
-        version: 5.2.6
+        specifier: ^5.2.7
+        version: 5.2.7
       '@fontsource/roboto':
-        specifier: ^5.2.6
-        version: 5.2.6
+        specifier: ^5.2.7
+        version: 5.2.7
       '@iconify-json/fa6-brands':
         specifier: ^1.2.6
         version: 1.2.6
@@ -1093,11 +1093,11 @@ packages:
   '@expressive-code/plugin-text-markers@0.41.3':
     resolution: {integrity: sha512-SN8tkIzDpA0HLAscEYD2IVrfLiid6qEdE9QLlGVSxO1KEw7qYvjpbNBQjUjMr5/jvTJ7ys6zysU2vLPHE0sb2g==}
 
-  '@fontsource-variable/jetbrains-mono@5.2.6':
-    resolution: {integrity: sha512-1pvtyK6H1paBOixbtZ9xfQgArVQ4SJMW3WSGZPOd5PiW3yg0t8umwKnjDMzW2ofb7qSdiXnsnIaHPT36vEOdlg==}
+  '@fontsource-variable/jetbrains-mono@5.2.7':
+    resolution: {integrity: sha512-vwU6O4wv1h1BvEJUWaylorj0WZ3+GB3uVsgUH7IpGX/euSXm0UyTu6MWusk1pph562F8cBvuv41P4jufRogF4Q==}
 
-  '@fontsource/roboto@5.2.6':
-    resolution: {integrity: sha512-hzarG7yAhMoP418smNgfY4fO7UmuUEm5JUtbxCoCcFHT0hOJB+d/qAEyoNjz7YkPU5OjM2LM8rJnW8hfm0JLaA==}
+  '@fontsource/roboto@5.2.7':
+    resolution: {integrity: sha512-fca6Jtyxn6kPR51+TTTMCFm0FOhnKaLEYYiAQc8P/4iFCKoKGR0aX89QR4CfP+N64RPXJus64UxhJaVENnSM6Q==}
 
   '@iconify-json/fa6-brands@1.2.6':
     resolution: {integrity: sha512-twL3X4KWcxAhbc1vz/mIDsVr+CAItk1/EIfxKUVQtpv6O4eydk5KNYqTZWdvJNHGInUgd6vKg21aWfVgb5DXEg==}
@@ -6311,9 +6311,9 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.3
 
-  '@fontsource-variable/jetbrains-mono@5.2.6': {}
+  '@fontsource-variable/jetbrains-mono@5.2.7': {}
 
-  '@fontsource/roboto@5.2.6': {}
+  '@fontsource/roboto@5.2.7': {}
 
   '@iconify-json/fa6-brands@1.2.6':
     dependencies:
