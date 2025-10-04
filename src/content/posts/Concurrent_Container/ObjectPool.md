@@ -2,7 +2,7 @@
 title: 简单的并发对象池
 published: 2025-09-14
 description: ""
-image: "./cover.jpeg"
+image: "./ObjectPool.jpeg"
 tags: ["Mirai", "C++", "Concurrent"]
 category: C++
 draft: false
